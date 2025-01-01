@@ -1,4 +1,5 @@
 # Wings'25 Website
+# This website Showcases the powerful and ambitious team of C-Cube Coding and their skills. 
 
 A modern, dynamic website for Wings'25 - a technical festival. Built with Next.js 15, TypeScript, and Tailwind CSS, featuring fluid animations and responsive design.
 
