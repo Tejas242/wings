@@ -24,22 +24,56 @@ export const categories: Category[] = [
 export const events: Event[] = [
   {
     id: 1,
-    title: "E-Sports",
+    title: "BGMI",
     description:
       "Game On, Glory Awaits! Compete in BGMI and Valorant tournaments.",
-    date: "January 23, 2025",
-    prize: "₹45,000",
-    image: "/events/valorant.webp",
+    date: "February 22, 2025",
+    prize: "₹22,500",
+    image: "/events/bgmi.webp",
     category: "competitions",
     fees: {
       "BGMI Duo": "₹100",
       "BGMI Squad (4)": "₹200",
-      "Valorant Squad (5)": "₹500",
     },
     building: "TBD",
     venue: "",
     highlights: [
       "BGMI and Valorant tournaments",
+      "20 teams limit",
+      "Multiple team size options",
+    ],
+    timeline: ["9:00 AM - Registration & Start"],
+    requirements: ["Team registration required", "Valid ID proof"],
+    rules: [
+      "Team size as per category",
+      "Game-specific rules apply",
+      "Fair play mandatory",
+    ],
+    coordinators: [
+      {
+        name: "Pratik Khandare",
+        phone: "9763183191",
+      },
+    ],
+    qrCode: "/images/payment-qr/esports.png",
+    rulebook: "/rulebooks/E-SPORTS.pdf",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdrcn16KEDHfyXoHJMTb0lIggWRiwe_MnRALpF-YDAKco-jxg/viewform?usp=dialog"
+  },
+  {
+    id: 0,
+    title: "Valorant",
+    description:
+      "Game On, Glory Awaits! Compete in BGMI and Valorant tournaments.",
+    date: "February 22, 2025",
+    prize: "₹22,500",
+    image: "/events/valorant.webp",
+    category: "competitions",
+    fees: {
+      "Valorant Squad (5)": "₹500",
+    },
+    building: "TBD",
+    venue: "",
+    highlights: [
       "Professional gaming setups",
       "20 teams limit",
       "Multiple team size options",
@@ -56,20 +90,16 @@ export const events: Event[] = [
         name: "Shantanu Karande",
         phone: "8624060301",
       },
-      {
-        name: "Pratik Khandare",
-        phone: "9763183191",
-      },
     ],
     qrCode: "/images/payment-qr/esports.png",
     rulebook: "/rulebooks/E-SPORTS.pdf",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSdrcn16KEDHfyXoHJMTb0lIggWRiwe_MnRALpF-YDAKco-jxg/viewform?usp=dialog"
+    link: "https://forms.gle/Tzpz5Buyv9hGtVym6"
   },
   {
     id: 2,
     title: "Dronix",
     description: "Game On, Glory Awaits! Show off your drone piloting skills.",
-    date: "January 23, 2025",
+    date: "February 22, 2025",
     prize: "₹45,000",
     image: "/events/dronix.webp",
     category: "technical",
@@ -91,7 +121,7 @@ export const events: Event[] = [
       },
     ],
     qrCode: "/images/payment-qr/dronix.png",
-    rulebook: "/rulebooks/DRONIX.pdf",
+    rulebook: "/rulebooks/dronix RB 2025.pdf",
     link: "https://forms.gle/FzwCD2je1oFaZp87A"
   },
   {
@@ -99,7 +129,7 @@ export const events: Event[] = [
     title: "Robo Olympics",
     description:
       "Rise of the Machines: Let the Games Begin! A three-event robotics competition.",
-    date: "January 23, 2025",
+    date: "February 22, 2025",
     prize: "More than ₹1,00,000",
     image: "/events/roborace.webp",
     category: "technical",
@@ -145,7 +175,7 @@ export const events: Event[] = [
     title: "Bridge Mania",
     description:
       "Engineering Fun, One Stick at a Time! Test your structural engineering skills.",
-    date: "January 23, 2025",
+    date: "February 22, 2025",
     prize: "₹22,500",
     image: "/events/bridge-mania.jpg",
     category: "technical",
@@ -179,7 +209,7 @@ export const events: Event[] = [
     title: "India Innovates",
     description:
       "Unleash Ideas, Ignite Innovation: The Future of Technology Starts Here!",
-    date: "January 23, 2025",
+    date: "February 22, 2025",
     prize: "₹22,500",
     image: "/events/iif.webp",
     category: "technical",
@@ -206,7 +236,7 @@ export const events: Event[] = [
     id: 6,
     title: "Hackathon",
     description: "Hack For Future, Win the Challenge! 24-hour coding marathon.",
-    date: "January 23, 2025",
+    date: "February 22, 2025",
     prize: "₹32,500",
     image: "/events/hackathon.webp",
     category: "technical",
@@ -234,16 +264,16 @@ export const events: Event[] = [
     title: "Ode to Code",
     description:
       "Code Like a Pro, Compete Like a Legend! Programming competition.",
-    date: "January 23, 2025",
+    date: "February 22, 2025",
     prize: "₹22,500",
     image: "/events/ode-to-code.webp",
     category: "technical",
-    fees: "₹100 per participant",
-    building: "TBD",
+    fees: "Free Entry",
+    building: "Computer Science & Engineering Department",
     venue: "",
     highlights: [
       "300 participant limit",
-      "Multiple rounds",
+      "Single Round",
       "Individual competition",
     ],
     timeline: ["9:00 AM - Registration & Start"],
@@ -257,15 +287,14 @@ export const events: Event[] = [
         phone: "9529072277",
       },
     ],
-    qrCode: "/images/payment-qr/ode-to-code.png",
-    rulebook: "/rulebooks/ODE-TO-CODE.pdf",
+    rulebook: "/rulebooks/OdeToCode.pdf",
     link: "https://shorturl.at/EXf0N"
   },
   {
     id: 8,
     title: "CAD War",
     description: "Design, Draft, Dominate: Unleash Your Creativity with CAD!",
-    date: "January 23, 2025",
+    date: "February 22, 2025",
     prize: "₹22,500",
     image: "/events/cad-war.avif",
     category: "technical",
@@ -296,7 +325,7 @@ export const events: Event[] = [
     id: 9,
     title: "Bike and Car Expo",
     description: "Drive the Future, Ride the Adventure!",
-    date: "January 23, 2025",
+    date: "February 22, 2025",
     prize: "Exhibition Event",
     image: "/events/auto-expo.jpg",
     category: "competitions",
@@ -310,8 +339,12 @@ export const events: Event[] = [
     timeline: ["9:00 AM - Exhibition Start"],
     coordinators: [
       {
-        name: "Event Coordinator",
-        phone: "+919765988071",
+        name: "Anirudh Panga",
+        phone: "9987073282",
+      },
+      {
+        name: "Aayush Patil",
+        phone: "8390949455"
       },
     ],
   },
@@ -319,7 +352,7 @@ export const events: Event[] = [
     id: 10,
     title: "Music Concert",
     description: "Experience the Magic of Live Music!",
-    date: "January 23, 2025",
+    date: "February 22, 2025",
     prize: "NaN",
     image: "/events/concert.avif",
     category: "cultural",
